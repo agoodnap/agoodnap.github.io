@@ -1,6 +1,6 @@
 .wrapper {
-	max-width: 400px;
-	/* margin: 50px auto; */
+	max-width: 100%;
+	margin: 10px 10px;
 	padding-left: 1em;
 	padding-right: 1em;
 }
@@ -39,8 +39,7 @@
 }
 
 .card__padding {
-    padding: 1.6rem;
-    padding-top: 0.8rem;
+	padding: 0.8rem 1.6rem 1.6rem;
 }
  
 .card__image {

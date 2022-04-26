@@ -117,7 +117,7 @@ img {
   display: -ms-grid;
 
   display: grid;
-  -ms-grid-columns: auto auto auto auto;
+  -ms-grid-columns: min-content auto auto auto;
       grid-template-columns: auto auto auto auto;
   grid-column-gap: 10px;
   
@@ -163,7 +163,7 @@ img {
 }
 
 .section {
-  max-width: 768px;
+  max-width: 60%;
   margin: auto;
   padding: 20px 0;
   /*min-height: 100vh;*/
@@ -203,7 +203,7 @@ img {
   text-align: center;
   margin-bottom: 20px;
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
   font-weight: bold;
 }
@@ -458,17 +458,6 @@ a {
 
 .bottom-link {
   margin: 0 5px;
-}
-
-.project-technologies {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(120px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  margin: 20px 0;
-  grid-gap: 5px;
-  grid-row-gap: 10px;
-  width: 100%;
 }
 
 .project-technology {

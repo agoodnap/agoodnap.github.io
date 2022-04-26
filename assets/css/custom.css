@@ -1,34 +1,93 @@
-.flex-container {
+.project-wrapper {
+    margin: 15px;
+}
+
+.project-wrapper .row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-.flex-left {
-    width: 50%;
-    height: 100vh;
-    padding: 10px;
-}
-
-.flex-right {
-    width: 50%;
-    padding: 10px;
-}
-
-.section-wide {
-    max-width: 1152px;
-    margin: 60px auto;
-    padding: 20px 0;
-    min-height: 100vh;
-
-    display: -webkit-box;
-
-    display: -ms-flexbox;
-
+.project-wrapper .text {
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    flex-direction: column;
+    flex-basis: 100%;
+    padding: 10px;
+}
+
+.project-wrapper .media {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    padding: 10px;
+}
+
+@media screen and (min-width: 800px) {
+    .project-wrapper .text {
+        flex: 1;
+    }
+
+    .project-wrapper .media {
+        flex: 1;
+    }
+}
+
+.filter-button-container {
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .filter-button-container {
+        
+    }
+}
+
+.filter-button {
+    margin: 5px auto 5px auto;
+}
+
+@media only screen and (min-width: 800px) {
+    .filter-button {
+        display: inline-block;
+    }
+}
+
+/*
+@media only screen and (min-width: 800px) {
+    .section {
+        max-width: 1152px;
+        margin: 60px auto;
+        padding: 20px 0;
+        min-height: 100vh;
+
+        display: -webkit-box;
+
+        display: -ms-flexbox;
+
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+*/
+
+.youtube-responsive-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.youtube-responsive-container iframe, .youtube-responsive-container object, .youtube-responsive-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

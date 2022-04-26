@@ -19,7 +19,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'game']
         },
         {
-            image: 'assets/images/smashcombos_card.png',
+            image: 'assets/images/smashcombos_screenshot1.png',
             link: 'projects/smashcombos#content',
             title: 'SmashCombos',
             technologies: ['.NET Core', 'C#'],
