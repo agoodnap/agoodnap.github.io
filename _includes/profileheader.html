@@ -1,0 +1,8 @@
+{% include base.html %}
+
+<div class="profile-pic-div animated">
+    <a href="#about" class="profile-pic-link"><img src="{{base}}/{{ site.profile_picture }}" class="profile-pic"/></a>
+</div>
+<div class="head-name head-title animated" id="head-name">{{ site.title }}</div>
+<div class="head-punchline animated">{{ site.description }}</div>
+{% include sociallinks.html %}

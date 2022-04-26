@@ -1,6 +1,8 @@
+.idea/
+.bundle/
 _site
-.sass-cache
-.jekyll-cache
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
 vendor
 node_modules

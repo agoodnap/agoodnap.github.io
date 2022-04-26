@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body>
+{% include projectnav.html %}
+<div class="section-wrapper" id="content">
+    <section class="section-wide" id="projects">
+        <div class="full-width">
+            <div class="section-heading">{% if page.projectname %} {{page.projectname}} {% endif %}</div>
+            <div class="flex-container">
+                <div class="flex-left">
+                    {{ content }}
+                </div>
+                <div class="flex-right">
+                    {% if page.trailerurl %}
+                    <h2>Trailer</h2>
+                    <iframe width="560" height="315" src="{{page.trailerurl}}" title="Spotfight Trailer" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    {% endif %}
+                    {% if page.screenshot1 or page.screenshot2 or page.screenshot3 %}
+                    <h2>Screenshots</h2>
+                    <div>
+                        {% if page.screenshot1 %}
+                        <img src="../assets/images/{{page.screenshot1}}" alt="Screenshot 1">
+                        {% endif %}
+                        {% if page.screenshot2 %}
+                        <img src="../assets/images/{{page.screenshot2}}" alt="Screenshot 2">
+                        {% endif %}
+                        {% if page.screenshot3 %}
+                        <img src="../assets/images/{{page.screenshot3}}" alt="Screenshot 3">
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+{% include contact.html %}
+
+{% include footer.html %}
+
+{% include scripts.html %}
+</body>
+</html>
