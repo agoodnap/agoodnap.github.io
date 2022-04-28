@@ -9,12 +9,12 @@
     <section class="section" id="projects">
         <div class="full-width">
             <div class="section-heading">{% if page.projectname %} {{page.projectname}} {% endif %}</div>
-            <div class="project-wrapper">
+            <div class="responsive-col-wrapper">
                 <div class="row paragraph-text justify-text">
-                    <div class="text">
+                    <div class="responsive-col">
                         {{ content }}
                     </div>
-                    <div class="media">
+                    <div class="responsive-col">
                         {% if page.trailerurl %}
                         <h2>Trailer</h2>
                         <div class="youtube-responsive-container">

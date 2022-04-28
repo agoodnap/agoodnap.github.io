@@ -27,11 +27,35 @@ let render_projects = (slug) => {
             categories: ['featured', 'webdev']
         },
         {
+            image: 'assets/images/zzd-engine_card.png',
+            link: 'https://github.com/agoodnap/zzd-engine',
+            title: 'zzd-engine',
+            technologies: ['C++'],
+            description: "A simple 2D engine in C++ I wrote. It handles audio, simple rendering, keyboard input & 2D physics + collision.",
+            categories: ['featured', 'game']
+        },
+        {
             image: 'assets/images/feedonfear_card.png',
             link: 'https://schwalm.itch.io/feed-on-fear',
             title: 'Feed on Fear',
             technologies: ['Unity', 'C#', 'Aseprite'],
             description: "A gamejam entry made in 48h that won first prize at the MMarmalade 6th Gamejam.",
+            categories: ['gamejam', 'game', 'pixelart', 'featured']
+        },
+        {
+            image: 'assets/images/upthewell_card.png',
+            link: 'https://agoodnap.itch.io/up-the-well',
+            title: 'Up The Well',
+            technologies: ['Unity', 'C#', 'Aseprite'],
+            description: "A short 2D pixel art game about maneuvering a small boy out of a well. Created for the MMarmalade 3th Gamejam.",
+            categories: ['gamejam', 'game', 'pixelart']
+        },
+        {
+            image: 'assets/images/bitsorter_card.png',
+            link: 'https://agoodnap.itch.io/bitsorter',
+            title: 'Bitsorter',
+            technologies: ['Unity', 'C#', 'Aseprite'],
+            description: "A reaction-based puzzle game where the player must sort the falling bits into the correct corner and keep up with the rising difficulty.",
             categories: ['gamejam', 'game', 'pixelart']
         },
     ]

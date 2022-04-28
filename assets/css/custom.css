@@ -1,22 +1,15 @@
-.project-wrapper {
+.responsive-col-wrapper {
     margin: 15px;
 }
 
-.project-wrapper .row {
+.responsive-col-wrapper .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
 }
 
-.project-wrapper .text {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    padding: 10px;
-}
-
-.project-wrapper .media {
+.responsive-col-wrapper .responsive-col {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -24,11 +17,7 @@
 }
 
 @media screen and (min-width: 800px) {
-    .project-wrapper .text {
-        flex: 1;
-    }
-
-    .project-wrapper .media {
+    .responsive-col-wrapper .responsive-col {
         flex: 1;
     }
 }
