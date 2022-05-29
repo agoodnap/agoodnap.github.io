@@ -16,7 +16,9 @@ such as **delivering a payload**, scoring highest in a **team death-match** and 
 Whoever manages to create a two-point lead, or is in the lead when the match time runs out, is the winner!
 
 Spotfight started development during our masters degree at the Salzburg University of Applied Sciences,
-and is currently on track to release on **Steam** and **itch.io** in late 2022.
+and is currently on track to release on **Steam** in late 2022.
+
+The game's steam page can be found [here](https://store.steampowered.com/app/1981510/Spotfight/).
 
 ## Development
 Spotfight's development started with a team of seven people, unfortunate circumstances led to the team shrinking to four: 2 Programmers, 1 Artist & 1 Sound Designer.
