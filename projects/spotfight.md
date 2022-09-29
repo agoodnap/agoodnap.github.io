@@ -2,8 +2,7 @@
 layout: projectpage
 title: Spotfight
 projectname: Spotfight
-trailerurl: https://www.youtube.com/embed/HsIjAuOCvew
-videourl2: https://www.youtube.com/watch?v=_dR7MRnG_mk
+trailerurl: https://www.youtube.com/watch?v=EfmYAIO_eyI
 screenshot1: spotfight_screenshot1.png
 screenshot2: spotfight_screenshot2.png
 screenshot3: spotfight_screenshot3.png
